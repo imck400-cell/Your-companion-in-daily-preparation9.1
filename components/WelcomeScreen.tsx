@@ -1,7 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import type { View } from '../App';
-import type { LessonPlan } from '../types';
+import type { LessonPlan, View } from '../types';
 
 interface WelcomeScreenProps {
     onNavigate: (view: View, lesson?: LessonPlan) => void;

@@ -1,10 +1,8 @@
 
 import React, { useState } from 'react';
-import WelcomeScreen from './components/WelcomeScreen';
-import LessonPlanner from './components/LessonPlanner';
-import type { LessonPlan } from './types';
-
-export type View = 'welcome' | 'planner';
+import WelcomeScreen from './components/WelcomeScreen.tsx';
+import LessonPlanner from './components/LessonPlanner.tsx';
+import type { LessonPlan, View } from './types';
 
 const App: React.FC = () => {
     const [currentView, setCurrentView] = useState<View>('welcome');

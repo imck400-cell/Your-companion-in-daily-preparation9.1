@@ -68,3 +68,5 @@ export enum BloomLevelAffective {
     Organization = "التنظيم",
     Characterization = "التمثل",
 }
+
+export type View = 'welcome' | 'planner';

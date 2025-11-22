@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import WelcomeScreen from './components/WelcomeScreen.tsx';
-import LessonPlanner from './components/LessonPlanner.tsx';
+import WelcomeScreen from './components/WelcomeScreen';
+import LessonPlanner from './components/LessonPlanner';
 import type { LessonPlan, View } from './types';
 
 const App: React.FC = () => {

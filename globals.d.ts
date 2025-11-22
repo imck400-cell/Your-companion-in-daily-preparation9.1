@@ -2,6 +2,12 @@
 // This prevents TypeScript errors during the build process on platforms like Vercel.
 
 declare global {
+  namespace NodeJS {
+    interface ProcessEnv {
+      API_KEY: string;
+    }
+  }
+
   interface Window {
     // Defines the structure of the jspdf object attached to the window.
     jspdf: {
